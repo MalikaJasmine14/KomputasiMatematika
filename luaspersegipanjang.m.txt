@@ -1,0 +1,4 @@
+%menghitungluaspersegipanjang
+P=4
+L=3
+Luas=P*L
