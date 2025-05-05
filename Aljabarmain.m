@@ -5,7 +5,7 @@ f = inline('x^2-3','x');
 X = [1 2];
 
 %panggil fungsi BagiDua
-[x,galat]=bagidua(f,X);
+[x,galat]=PosisiPalsu2(f,X);
 
 disp('akar hampiran = ')
 disp(x)
