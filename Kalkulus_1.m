@@ -77,13 +77,13 @@ clear
 % disp('integral tak tentu dari f() = x^2 : ');
 % disp(F);
 
-%integral tentu
-%definisi fungsi
-f = @(x)2*x.^2;
-%batas integral
-a = 0;
-b = 1;
-%menghitung integral tentu 
-result = integral(f,a,b);
-%menampilkan hasil
-disp(['integral dari f = 2*x^2 dalam batas 0 hingga 1 :',num2str(result)]);
+% %integral tentu
+% %definisi fungsi
+% f = @(x)2*x.^2;
+% %batas integral
+% a = 0;
+% b = 1;
+% %menghitung integral tentu 
+% result = integral(f,a,b);
+% %menampilkan hasil
+% disp(['integral dari f = 2*x^2 dalam batas 0 hingga 1 :',num2str(result)]);
